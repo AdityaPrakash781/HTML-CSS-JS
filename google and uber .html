@@ -8,18 +8,15 @@
         .noborder{
             padding:8px 80px 8px 15px;
             width:350px;
-            margin-left:50px;
             border:none;
             border-radius:20px;
             box-shadow:0px 0px 7px rgba(0,0,0,0.25);
-            margin-bottom:80px;
-            display: block;
+            margin-bottom:20px;
+            
         }
 
         .google{
             width:180px;
-            display:inline-block;
-            margin-left: 170px;
             margin-bottom: 6px;
         }
 
@@ -49,6 +46,7 @@
             padding:8px 8px 8px 8px;
             border-color:black;
             border-style: solid;
+            cursor:pointer;
         }
         .schedule-button{
             margin-left:10px;
@@ -56,20 +54,54 @@
             border-style:solid;
             padding:8px 8px 8px 8px;
             font-size: 10px;
+            cursor:pointer;
+        }
+        .image{
+            text-align: center;
+        }
+        .search{
+            text-align: center;
+        }
+        .buttons{
+            text-align: center;
+            margin-bottom:100px;
+        }
+        .design{
+            background-color: rgb(231, 231, 231);
+            border-style:solid;
+            border-color: rgb(231, 231, 231);
+            padding:5px 5px 5px 5px;
+            margin-right:5px;
+            cursor:pointer;
         }
 
     </style>
 </head>
 
 <body>
+    <div class="image">
     <img src="thumbnails/Google_2015_logo.svg.webp" class="google">
+    </div>
+    <div class="search">
     <input class="noborder" type="text" placeholder="Search Google or type a URL">
+    </div>
+    <div class="buttons">
+        <button class="design">
+            Google Search 
+        </button>
+        <button class="design">
+            I'm Feeling Lucky
+        </button>
+    </div>
+
+
 
     <p class="request">Request a ride now</p>
     <input type="text" class="uber-pickup" placeholder="Enter pickup location">
     <input type="text" class="uber-pickup" placeholder="Enter destination">
     <button class="request-button">Request now</button>
     <button class="schedule-button">Schedule for later</button>
+
 </body>
 
 </body>
